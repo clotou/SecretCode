@@ -1,5 +1,6 @@
 <template>
   <!-- <button @click="count++">count is: {{ count }}</button> -->
+  <div class="code-page">
   <form action="" method="get" class="form-code">
     <div class="code-raw">
       <input type="text" name="" id="num1" class="num">
@@ -9,6 +10,7 @@
     </div>
     <input type="button" value="Valider le code secret" class="validate" @click="sendCode()">
   </form>
+  </div>
 </template>
 
 <script>

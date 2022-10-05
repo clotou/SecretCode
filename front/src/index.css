@@ -33,7 +33,7 @@ body {
   perspective: 500px;
 }
 
-body {
+.code-page {
   display: flex;
   flex-direction: column;
   transform: rotatex(10deg);
@@ -189,4 +189,23 @@ body {
         calc(var(--z) * 100px),
         calc(var(--z) * 100px));
   }
+}
+
+.bravo-block {
+  padding: 50px;
+  border-radius: 30px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255,
+    255,
+    255, 0.12) 0px -12px 30px, rgba(255,
+      255,
+      255, 0.12) 0px 4px 6px, rgba(255,
+      255,
+      255, 0.17) 0px 12px 13px, rgba(255,
+      255,
+      255, 0.09) 0px -3px 5px;
+  background-image: url("../public/gold.jpeg");
+  color:#181620;
+  font-weight: 600;
+  width: 600px;
+  font-size: 25px;
 }
