@@ -193,7 +193,7 @@ body {
 
 .bravo-block {
   padding: 50px;
-  border-radius: 30px;
+  border-radius: 10px 10px 8px 20px;
   box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255,
     255,
     255, 0.12) 0px -12px 30px, rgba(255,
@@ -203,9 +203,28 @@ body {
       255, 0.17) 0px 12px 13px, rgba(255,
       255,
       255, 0.09) 0px -3px 5px;
-  background-image: url("../public/gold.jpeg");
-  color:#181620;
+  background-image: url("../public/rouille.png");
+  background-size: cover;
+  color:#ffffff;
   font-weight: 600;
   width: 600px;
-  font-size: 25px;
+  font-size: 35px;
+}
+p, h1{
+  font-family: Bebas Kai;
+  text-shadow: rgba(0, 0, 0, 1) 0px 3px 8px;
+  opacity: 0.7;
+}
+
+a {
+  font-family: Bebas Kai;
+  text-decoration: none;
+  color: #a7f7ca;
+  text-shadow: rgb(145, 206, 214) 0px 3px 8px;
+}
+
+a:hover {
+  font-size: 40px;
+  color: #24fa81;
+  text-shadow: rgb(36, 221, 249) 0px 3px 8px;
 }

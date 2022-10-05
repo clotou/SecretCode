@@ -1,5 +1,4 @@
 <template>
-  <!-- <button @click="count++">count is: {{ count }}</button> -->
   <div class="code-page">
   <form action="" method="get" class="form-code">
     <div class="code-raw">

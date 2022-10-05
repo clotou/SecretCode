@@ -9,5 +9,6 @@
     Alignez vous en ordre de dégradé de bleu contre le mur jonché du logo promo.dev.
     A tout de suite dans la base
   </p>
+  <a href="https://spatial.io/s/Clotous-Immersive-Meetup-6310698a1e12010001f17f56?share=4070506786889794511" target="_blank">RETOUNEZ ICI</a>
   </div>
 </template>
